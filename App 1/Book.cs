@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace labsheet2que2
+namespace App_1
 {
-    internal class Program
+    internal class Book
     {
-        static void Main(string[] args)
-        {
-
-        }
+        public string Title;
+        public string Author;
     }
 }

@@ -10,7 +10,14 @@ namespace App_1
     {
         static void Main(string[] args)
         {
-            Books book = new Books();
+            Book book = new Book();
+            book.Author = "Anita desai";
+            book.Title = "Village by the sea";
+
+            Console.WriteLine("Title: " + book.Title);
+            Console.WriteLine("Author: " + book.Author);
+
+            Console.ReadLine();
 
         }
     }
