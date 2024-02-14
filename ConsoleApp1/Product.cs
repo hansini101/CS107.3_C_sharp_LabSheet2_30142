@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace labsheet2que4
 {
     internal class Product
     {
-        public string ProductName { get; set; }
-        public decimal Price { get; set; }
+        public string ProductName;
+        public double Price;
 
-        public Product(string productName, decimal price)
+        public Product(string productName, double price)
         {
             ProductName = productName;
             Price = price;
