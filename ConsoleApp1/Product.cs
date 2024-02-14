@@ -8,6 +8,13 @@ namespace ConsoleApp1
 {
     internal class Product
     {
+        public string ProductName { get; set; }
+        public decimal Price { get; set; }
 
+        public Product(string productName, decimal price)
+        {
+            ProductName = productName;
+            Price = price;
+        }
     }
 }
